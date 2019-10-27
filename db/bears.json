@@ -1,0 +1,34 @@
+{
+  "bears": [
+    {
+      "id": "bear1",
+      "type": "brown",
+      "color": "brown",
+      "lastMeal": "Michael",
+      "size": "large",
+      "weight": 55,
+      "isHungry": true,
+      "location": "Micheals house"    
+    },
+    {
+      "id": "bear2",
+      "type": "brown",
+      "color": "brown",
+      "lastMeal": "Michael",
+      "size": "large",
+      "weight": 55,
+      "isHungry": true,
+      "location": "the hood"    
+    },
+    {
+      "id": "bear3",
+      "type": "brown",
+      "color": "brown",
+      "lastMeal": "Michael",
+      "size": "large",
+      "weight": 55,
+      "isHungry": true,
+      "location": "NSS"    
+    }
+  ]
+}
