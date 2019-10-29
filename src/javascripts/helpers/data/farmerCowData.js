@@ -3,6 +3,7 @@ import axios from 'axios';
 const getFarmersCows = () => new Promise((resolve, reject) => {
   axios.get('../../../db/farmerCows.json').then((response) => {
     const demFarmerCows = response.data.farmerCows;
+    // console.log(demFarmerCows);
     const farmersCows = [];
     Object.keys(demFarmerCows).forEach((farmerCowId) => {
       demFarmerCows[farmerCowId].id = farmerCowId;
